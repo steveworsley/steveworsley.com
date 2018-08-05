@@ -1,0 +1,72 @@
+Title: Basic Income
+----
+Date: 2015/03/08
+----
+Publish Date: February 2015
+----
+Subtitle:
+----
+Description: An article the basic income, citizen's income, universal income and how we can change work for the better.
+----
+Excerpt: Imagine not having to work. How would you spend your day? You could travel, read, volunteer, play board games, become an astronaut, spend more time with the family, probably do lots of different things.
+----
+Text:
+
+Imagine not having to work. How would you spend your day? You could travel, read, volunteer, [play board games](http://steveworsley.com/on/board-games), [become an astronaut](http://steveworsley.com/quotes/an-astronauts-guide-to-life-on-earth), spend more time with the family, probably do lots of different things. Humans are doers in their nature and for the majority of our lives we spend much of our energy doing for someone else. But maybe not for much longer.
+
+Automation of jobs has been haunting us through the past 300 years. It started with the automation of textile looms in the 18th century, the use of [robots in car factories](http://www.technologyreview.com/news/530691/audi-drives-innovation-on-the-shop-floor/) and we can see it today with automated ticket machines and shop checkouts. Manual labour has bared the brunt of this automation but, with artificial intelligence perched for [exponential take off](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), automation in the knowledge labour market is only going to get better.
+
+We really should be embracing automation as an opportunity to free us from work. But currently work is seen as a positive rather than something which needs to change. To the worst snobs, being branded as unemployed means you’re not pulling your weight, you’re not contributing to the society you’re benefiting from. You should get yourself a soul sucking, pointless job in telesales so you can pay back into society.
+
+We’re lucky if we have a choice in what we work on. Maybe you enjoy your work but I would ask - would you not prefer to utilise your skills on your own terms? Or even have the freedom to leave your current job and gain new skills. Currently, we have no choice not to work without the stigma of being unemployed.
+
+What’s the solution? Well it could be a basic or universal income. The idea is basically to scrap the current welfare solution and pay everyone a set amount of money each month. Enough to live on relatively comfortably. This idea sounds promising for a number of reasons:
+
+* Everyone gets the same amount of money and therefore is equal. No more benefit snobbery, although I’m sure that would turn into ‘what are you doing with your life’ snobbery but that’s a different matter entirely.
+* Shit jobs will have to pay a lot better because people will no longer tolerate them and pointless jobs will cease to exist.
+* We will be able to work less and spend more time with loved ones. It’s a shame that when you’re working you want to spend more time with your kids, yet when you retire your kids will be working and probably would wish they could spend more time with you.
+* You will have more time for volunteering and working for the ‘greater good’.
+* There’s more choice for you on how you want to live your life.
+
+The idea of a basic income has been around for [centuries](http://motherboard.vice.com/blog/guaranteeing-a-minimum-income-has-been-a-utopian-dream-for-centuries) but it seems to have been gaining traction recently (or maybe it's just been featured in the media more). The biggest problem is how do we actually pay for it?
+
+Please forgive my highly unscientific calculation:
+
+If there are 64.1 million people in the UK and the annual living wage comes to be about £15,000, funding a basic income would come to about £9,615,000,000,000. Spending on personal welfare in the UK in 2012 was [£694,890,000,000](http://www.theguardian.com/news/datablog/2013/jan/08/uk-benefit-welfare-spending). Quite a deficit! Luckily there are plenty more intelligent people out than than me and the Citizen Income Trust has worked out that by giving on average £3933 to everyone would work out to be about [£232,900,000,000](http://www.citizensincome.org/FAQs.htm). Much better.
+
+Basic income has been kick started in many different countries and there are plenty of organisations pushing idea. To find out more check out these resources:
+
+* [basicincome.org](http://www.basicincome.org/)
+* [basicincome.org.uk](http://basicincome.org.uk/)
+* [reddit.com/r/BasicIncome](http://www.reddit.com/r/BasicIncome/)
+* [citizensincome.org](http://www.citizensincome.org/)
+
+Basic Income might be a pipe dream but it’s important to think of work differently than we currently do and to think how we can transition to a better life. We don’t have to stick with what we’ve got. There’s no harm in hoping for a future where we do more of what we want. A future where we’re free to improve and enrich ourselves.
+
+## 2016
+
+The idea of a Basic Income seems to be gaining traction and has been getting a fair amount of press. There are at least discussions about conducting experiments by some governments. At the moment it’s about convincing people to invest in research.
+
+### Plans for experiments
+
+In June there were many reports ([Guardian](http://www.theguardian.com/world/2015/dec/26/dutch-city-utrecht-basic-income-uk-greens), [Forbes](http://www.forbes.com/sites/ilyashapiro/2016/02/14/dont-confirm-scalias-replacement-until-after-the-election/), [Huffington Post](http://www.huffingtonpost.ca/2015/07/10/utrecht-basic-income_n_7770648.html), [Quartz](http://qz.com/473779/several-dutch-cities-want-to-give-residents-a-no-strings-attached-basic-income/)) that the city of Utrecht in the Netherlands were planning on running a Basic Income experiment. The idea would be to give groups of people already on welfare around £600 a month. Each group would have different rules and regulations on how they could spend their money. If a person managed to find a job they would continue to get the Basic Income. The brains behind the experiment want to test whether receiving a Basic Income would put people off trying to get a job. You can read more about the experiment on [Quartz](http://qz.com/437088/utrecht-will-give-money-for-free-to-its-citizens-will-it-make-them-lazier/).
+
+The experiment was planned to start after the summer 2015 however it looks like it’s not yet approved. There are a few cities who would like to run Basic Income experiments in the Netherlands and the Dutch Ministry of Social Affairs wants them to team up together to run [one experiment](http://www.basicincome.org/news/2015/11/netherlands-four-municipalities-make-uniform-plan-free-money/) across the different cities.
+
+It was also reported ([Guardian](http://www.theguardian.com/commentisfree/2015/dec/10/finland-universal-basic-income-ubi-social-security), [BBC](http://www.bbc.co.uk/news/world-europe-33977636), [Quartz](http://qz.com/566702/finland-plans-to-give-every-citizen-a-basic-income-of-800-euros-a-month/)) that the Finnish government commissioned a national social insurance provider to calculate the costs and run an experiment on Basic Income. However KELA are still [working out](http://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/contrary-to-reports-basic-income-study-still-at-preliminary-stage?_101_INSTANCE_3a1vR0IztzeZ_redirect=%2Fweb%2Fen) how to run the experiment. If it does get approved it will be run in 2017.
+
+In America Y-Combinator, a start-up incubator, have put out a [Request for Research](https://blog.ycombinator.com/basic-income) and want to fund a researcher to work full-time for 5 years.
+
+In the UK Caroline Lucas from the Green party has put a motion in place to discuss the possibility of [commissioning](http://www.independent.co.uk/news/uk/politics/universal-basic-income-british-parliament-to-consider-motion-uk-a6823211.html) research.
+
+### Crowdfunding
+
+What can we do in the meantime while governments consider researching Basic Income? Crowdfund our own, of course! [Scott Santens](https://www.patreon.com/scottsantens) and [Sjir Hoeijmakers](http://www.dreamordonate.nl/1612-maak-basisinkomen-mogelijk) have set up their own crowdfunding pages to try and garner enough support to provide a Basic Income allowing them the time to research and report back on what it’s like to live on one.
+
+### The Future
+
+I’ll leave you with this lovely short film about the Last Job on Earth.
+
+<div class='embed-container'><iframe src="https://embed.theguardian.com/embed/video/sustainable-business/video/2016/feb/17/last-job-on-earth-automation-robots-unemployment-animation-video" width="560" height="315" frameborder="0" allowfullscreen></iframe></div>
+
+----

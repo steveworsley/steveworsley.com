@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en" class="default">
+<head>
+    <!--
+          ___           ___           ___       ___       ___
+         /\__\         /\  \         /\__\     /\__\     /\  \
+        /:/  /        /::\  \       /:/  /    /:/  /    /::\  \
+       /:/__/        /:/\:\  \     /:/  /    /:/  /    /:/\:\  \
+      /::\  \ ___   /::\~\:\  \   /:/  /    /:/  /    /:/  \:\  \
+     /:/\:\  /\__\ /:/\:\ \:\__\ /:/__/    /:/__/    /:/__/ \:\__\
+     \/__\:\/:/  / \:\~\:\ \/__/ \:\  \    \:\  \    \:\  \ /:/  /
+          \::/  /   \:\ \:\__\    \:\  \    \:\  \    \:\  /:/  /
+          /:/  /     \:\ \/__/     \:\  \    \:\  \    \:\/:/  /
+         /:/  /       \:\__\        \:\__\    \:\__\    \::/  /
+         \/__/         \/__/         \/__/     \/__/     \/__/
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        Case Study    </title>
+    <meta name="description" content="">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/images/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/images/manifest.json">
+    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+	<link rel="alternate" type="application/rss+xml" href="/on/feed" title="Steve Worsley's Article Feed" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<div class="width-control">
+<header>
+
+	<a class="site-icon" href="/">
+		<span>S.</span>
+    	</a>
+    <p>Writing things<br />of a frivolous nature.</p>
+	<nav>
+    <ul class="main-menu">
+        <li><a href="/about">About</a></li>
+        <li><a   href="/">Articles</a></li>
+        <li><a href="https://pinboard.in/u:steveworsley/public/">Bookmarks</a></li>
+    </ul>
+</nav>
+
+</header>
+
+  <main class="content-container" role="main">
+      <h1>Case Study</h1>
+      <p>I’ve picked the International Boxing Association (AIBA) websites <a href="http://aiba.org">aiba.org</a>, <a href="http://worldseriesboxing.com">worldseriesboxing.com</a> (WSB) and <a href="http://aibaproboxing.com">aibaproboxing.com</a> (APB) to case study as they proved to be a challenge and were built around the time I was trying new techniques, from which I’ve been able to improve upon in other projects. This case study will explain the reasoning behind my decisions and what I’ve learnt from them.</p>
+<p>I led the front-end build which included HTML, CSS, JavaScript, PHP and WordPress. The main challenges faced were time, budget, lack of content and resourcing. These were also the first large responsive sites that I was involved with.</p>
+<h2>Overview</h2>
+<p>The International Boxing Association came to Skylab to initially build three websites:</p>
+<figure class="wide-image"><a href="http://aiba.org"><img src="/content/case-study/aiba.jpg" alt=""></a><figcaption>aiba.org - Federation</figcaption></figure>
+<figure class="wide-image"><a href="http://worldseriesboxing.com"><img src="/content/case-study/wsb.jpg" alt=""></a><figcaption>worldseriesboxing.com - Competition</figcaption></figure>
+<figure class="wide-image"><a href="http://aibaproboxing.com"><img src="/content/case-study/apb.jpg" alt=""></a><figcaption>aibaproboxing.com - Competition</figcaption></figure>
+<p>All three sites would have an international audience and be viewed across many different screen sizes. WSB and APB were planned to be the first of many competition websites. AIBA had their own competition data such as results and fixtures which would need integrating (I was not involved with the data integration other than to set it up in the WordPress templates).</p>
+<h2>Process</h2>
+<p>The project followed the waterfall model, so once the client had signed off the scope it was passed to design and these were used during the build phase. The agreement was to build WSB site first, followed by aiba.org, the data integration and then APB.</p>
+<p>We decided to use a WordPress multisite and to create two themes (federation and competition). The decision to use one theme for both (and future) competition sites was taken mainly due to budgetary constraints and we were led to believe that there would be very little difference between the competitions. In hindsight we should have created a child theme per competition which could have inherited the generic styles from a parent theme and kept the logic for each competition isolated.</p>
+<p>Although we followed the waterfall model the designer and I had a good habit of working closely together. We often found that we were more productive when sat with each other rather than passing feedback back and forth.</p>
+<p>Once each site was built it was browser tested depending on the latest browser stats, which I compiled into a document every quarter. They were tested across a range of devices and virtual environments. I used a personal copy of <a href="https://www.vanamco.com/ghostlab/">Ghostlab</a> to make this more efficient.</p>
+<h2>Build</h2>
+<p>The following are some of the challenges I came across during the build process.</p>
+<h3>Components</h3>
+<p>The competition theme needed to be extensible as we would be adding new competitions further down the line. I decided that we should try to split the theme into components. This would allow us greater flexibility and reuse. I’d also read about <a href="http://patternlab.io/about.html">Atomic Design</a> so I was keen to try something similar. I’d previously introduced the BEM syntax into the studio and it made sense to keep using this.</p>
+<p>For each component we had a separate PHP partial, SASS file and Object Literal in the JavaScript.</p>
+<p>This worked well whilst we were building the themes, however by breaking it down into small reusable components it actually become harder to maintain. Developers coming onto the project found it harder to navigate through the code.</p>
+<p>Unfortunately, once we had built the sites, it turned out that AIBA would be sticking with just the two competitions. Therefore I think splitting the theme into components to this extent was overkill for this particular project and would be more useful on a product where the components could be documented in a style guide.</p>
+<h3>Responsive</h3>
+<p>The competition theme was developed first and this was tailored towards desktop. Breakpoints were added when the layout ‘broke’ as the website was scaled down for smaller screen sizes. This was great in theory but we ended up with too many minor breakpoints and again it made it harder to maintain.</p>
+<p>For the aiba.org site I decided to take a mobile first approach and discuss a comprise with the designer to limit the number of breakpoints to around 7. It meant striking a balance between making the site look perfect at all screen resolutions and maintainability.</p>
+<p>Making data tables responsive is quite tricky. After discussions with the designer we decided that for some of the static tables it would be okay to hide columns which contained secondary information at smaller screen sizes:</p>
+<figure class="wide-image"><img src="/content/case-study/tables.jpg" alt=""></figure>
+<p>Tables added through the CMS would use a wrapper and rely on horizontal scroll. I also tried the method of adding the column heading above each cell and stacking them vertically, but on large tables the user would end up having to scroll too far to get to the content below the table.</p>
+<p>Another challenge was the headings in the competition theme. Initially these were designed to be full width, sit on one line and stick to the bottom of the hero image.</p>
+<p>However, there was no way of dynamically scaling the text in proportion to the screen size (not to mention the usual custom font line-height quirks). I tried using <a href="http://fittextjs.com/">fittext.js</a> but it wouldn’t have worked for the long post titles. In the end I had to add quite a few minor breakpoints specifically for the headings.</p>
+<figure class="wide-image"><img src="/content/case-study/headings.jpg" alt=""></figure>
+<h3>Performance</h3>
+<p>To improve the performance of the sites I set up Gulp to concatenate and compress the JavaScript and compiled CSS. Gulp used <a href="https://www.npmjs.com/package/gulp-imageoptim">imageoptim</a> to compress the image assets. I also implemented <a href="https://en-gb.wordpress.org/plugins/wp-super-cache/">WP Super Cache</a>. At the time of build we had not found a robust responsive image solution, however on future projects I started using the <a href="https://github.com/scottjehl/picturefill">picturefill</a> polyfill by Scott Jehl and adding custom fields for the client to upload 4 different sizes of image. We didn’t have a set performance budget but I did work with the designer to reduce the number of fonts and assets loaded in.</p>
+<h3>Progressive Enhancement</h3>
+<p>The themes use some progressive enhancement techniques such as custom select boxes with JavaScript, CSS arrows and animations depending on browser support. It pains me that, more importantly, we didn’t use progressive enhancement for the menu. If a user’s browser doesn’t use JavaScript, or if JavaScript fails to load, they are limited to the pages they can navigate to. We took the view not to support browsers not using JavaScript (unless the client specifically requested it) after reading the <a href="https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/">GDS stats</a>. We had already dropped support for IE8 and 9 as less than 2% of users were using those browsers, so with 1% of users not using JavaScript it was easier to justify.</p>
+<h2>Retrospect</h2>
+<p>We went into the project, as always, with good intentions but had to make many compromises.</p>
+<p>If I was tasked with the project again I would:</p>
+<ul>
+<li>Encourage the client to provide the content first. Hire a copywriter or content strategist who can work with the client to produce and organise the content.</li>
+<li>Get a good understanding of the competition data. Although we were led to believe the competitions would be quite similar, the smaller details - such as when results should be displayed or the number of bouts per match - differed quite a bit. This made the logic inside the templates more complex and so it would have made sense to split them out into separate child themes.</li>
+<li>Reduce the complexity of the components.</li>
+<li>Use Bootstrap. I took pride in building clean, bespoke, ‘hand-crafted’ templates and wasn’t too keen on using frameworks. I’ve come to learn that the benefits of being able to standardise grids, major breakpoints and components across multiple projects significantly outweighs any reservations I had about bloat. It also improves maintainability and cohesion between design and development.</li>
+<li>Encourage feedback from the client early and often.</li>
+</ul>
+<p>Quite frankly this was a troublesome project but the experience I took from it went into improving the projects which followed.</p>
+<h2>Additional Projects</h2>
+<h3>Holts Auto</h3>
+<p>A responsive WordPress multisite for Holts with a separate site for each brand - Prestone, Redex and Simoniz. This was based on Bootstrap and used Timber for templating. A responsive image polyfill was used for the carousel to allow the client to use a different image per major breakpoint.</p>
+<figure class="wide-image"><a href="https://www.holtsauto.com/"><img src="/content/case-study/holts.jpg" alt=""></a></figure>
+<h3>Holts Paint Match Pro</h3>
+<p>A responsive web app built on Ember to search car paints and stockists. I was involved with the front-end and some of the data integration.</p>
+<figure class="wide-image"><a href="https://www.holtsauto.com/holts/paintmatchpro/"><img src="/content/case-study/paintmatchpro.jpg" alt=""></a></figure>
+<h3>Aquazone</h3>
+<p>A responsive ‘digital magazine’ for young swimmers built on Symfony. This is probably the most challenging responsive interface I have built, as it involves sliding new content columns in from the left and right depending on the way the user navigates the page. This, coupled with having to drop or add columns depending on the size of the browser window and navigating history states, made it quite complex.</p>
+<figure class="wide-image"><a href="https://aquazone.swimming.org"><img src="/content/case-study/aquazone.jpg" alt=""></a></figure>
+<h3>Swimming Learn to Swim and Careers</h3>
+<p>A responsive theme for the Swimming.org WordPress multisite. The brief was to create a standardised theme to surface swimming content, could be used across multiple sites and could be customised. Breaking the theme into components worked well here as it allowed us to create new components for site specific functionality such as the job listing for Careers.</p>
+<figure class="wide-image"><a href="http://www.swimming.org/learntoswim/"><img src="/content/case-study/learn.jpg" alt=""></a><figcaption>Learn to Swim</figcaption></figure>
+<figure class="wide-image"><a href="http://www.swimming.org/careers/"><img src="/content/case-study/careers.jpg" alt=""></a><figcaption>Careers</figcaption></figure>
+<h3>Swimming Entry Page Prototype</h3>
+<p>The brief for this project was to create a customisable WordPress theme for the Swimming.org WordPress multisite. The theme would be split into full-width sections which could be ordered through the CMS.</p>
+<p>This was a great project to work on as we were able to get feedback from the client early on. Once the client had given feedback on the wireframes the designer had created, I built a HTML prototype. I then worked with the designer to iron out any responsive issues and identify any constraints which might need adding. It also allowed us to add greater detail to the scope which was valuable for when the project went into build.</p>
+<figure class="wide-image"><a href="http://www.swimming.org"><img src="/content/case-study/s-entry.jpg" alt=""></a></figure>
+<h3>British Mountain Climbing TV</h3>
+<p>A responsive WordPress theme for surfacing BMC climbing videos.</p>
+<figure class="wide-image"><a href="http://tv.thebmc.co.uk/"><img src="/content/case-study/bmc.jpg" alt=""></a></figure>  </main>
+
+
+<a class="logo" href="/">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="263.7" height="123.8" viewBox="0 0 263.7 123.8" enable-background="new 0 0 263.725 123.837" xml:space="preserve"><g display="none"><image display="inline" overflow="visible" width="2000" height="1329" transform="matrix(0.2057 0 0 0.2057 123.2856 370.6396)"/></g><image overflow="visible" width="1282" height="650" transform="matrix(0.2057 0 0 0.2057 182.8345 433.0977)"/><g display="none"><g display="inline"><path class="glasses" fill-rule="evenodd" clip-rule="evenodd" d="M446.6 494.9c0 0.1 0 0.3 0 0.4 -0.6 3.3-0.2 8.2-2.3 10.3 -1.7 1.8-5.6 2.1-7.6 3.5 -3.9 2.7-4.6 8.3-6 14 -5.6 23-21.6 39.8-48.3 41.8 -15.3 1.1-29.8-4.7-38.3-12.8 -5.9-5.6-11.2-14.4-14.2-24.5 -1-3.3-2.6-8.9-1.2-12.8 0.4-1.1 0.8-2.1 1.4-3.1 0.5-0.7 1.6-1.6 1.4-2.9 -0.2-2.4-4.3-4-7.4-4.3 -3.8-0.5-7.5-0.1-10.5 0 -3 0.1-7 0.1-10.9 0.8 -2.8 0.5-7.1 1.7-7.4 4.1 -0.4 2.6 3.3 5 3.7 7.4 0.9 5.1-1.4 10.7-2.5 14.4 -4 13.2-10.6 22.6-21.8 28.8 -7.8 4.3-18.2 7.3-29.6 6.6 -14.7-0.9-26.1-8.4-33.9-16.3 -4.2-4.2-7.7-9.2-10.1-15 -1.2-3-1.9-6.4-2.9-9.7 -1.7-5.8-2.7-12.3-7.4-15.2 -2-1.3-4.6-1.2-6-2.9 -1.7-2.1-1.3-6-2.1-8.6 0-0.5 0-1.1 0-1.6 3.1-15.1 7.7-31.6 17.3-41.1 4.1-4.1 9.6-10.2 17.3-8.2 5.2 3.7 8.9 11.5 13 16.7 2.7 3.5 5 7.1 3.5 13.4 -0.3 1.5-0.4 2.8-1 3.1 -3.2 1.4-4.8-3.6-5.8-5.8 -2.8-6.1-5.1-10.5-7.8-15.6 -1.1-2.1-3.3-6.7-5.1-6.6 -1.3 0.1-3 2.1-4.4 3.4 -1.5 1.5-2.5 2.6-3.5 3.6 -5.3 5.9-7.7 12.1-10.3 19.7 -1.3 3.9-1.9 8.1-2.1 12.8 8.7 0.2 16.3-2.7 23.9-4.7 7.8-2.1 16-3.7 25.3-4.1 14.6-0.7 26.5 2 36.6 6.8 3.4 1.6 7.2 4.6 10.5 4.3 2.2-0.2 3.9-2.7 6.2-3.3 5-1.3 11.5 0.7 17.5 0.4 2.6-0.1 5.4-0.6 8-0.8 2.8-0.3 6.2-0.8 8.6-0.2 2.1 0.5 3.8 2.9 6.2 3.1 3 0.2 7.5-3.1 10.5-4.5 10.2-5 23.5-8 38.1-7.6 19.7 0.5 32.5 7 51.4 8.6 0.4-9.2-1.6-17-4.3-24.1 -2.7-7-5.9-13.9-11.9-17.9 -4.4 3.3-6.4 9.5-8.4 15.2 -2 5.7-3.6 11.7-6.9 16 -0.1 0.1-0.2 0.4-0.6 0.3 -0.2-0.1-0.2-0.1-0.4-0.3 -2.7-2.1-3.5-7.3-2.6-10.7 0.6-2.4 3-5.1 4.1-7.8 0.3-0.7 1.3-2 1.9-3.1 2.4-4.4 3.9-8.6 6.6-11.7 1-1.1 3-2.6 4.1-2.9 7.4-2.1 12.2 5.2 15 9.3C440.7 464 444.9 478.8 446.6 494.9zM350.9 496.6c-7.9 5.5-13.7 14.2-13 27.4 0.5 10.2 6.3 17.9 12.5 22.8 3.7 3 6.9 5.9 11.3 8 9.7 4.6 20.7 5.5 31.7 2.1 14.3-4.5 24.3-14.9 29.2-28.8 1.9-5.4 3.2-11.7 1.9-17.7 -3.7-16.5-21.8-22.3-40.7-21.8C369.8 488.9 359.2 490.9 350.9 496.6zM228.1 492.4c-3 0.7-6 1.6-8.6 2.7 -4.8 2-10.3 6-12.5 10.1 -4.5 8-2.8 20.4 0.4 28.2 1 2.5 2.3 4.8 3.9 7 0.1 0.2 0.3 0.5 0.4 0.6 0.2 0.3 0.2 0.4 0.5 0.8 0.3 0.5 0.9 1 1.2 1.4 6.9 8.7 18.4 16.3 31.7 17.3 9 0.6 18.5-1.4 25.1-6 2.5-1.7 4.8-4.2 7.2-6.2 2.6-2.1 4.7-4.7 6.4-7.2 2.8-4 5.6-9.3 6-15.4 0.9-16-7.6-25.6-17.9-30.7 -7.9-3.8-20.1-4.8-30.9-4.3C236 491 232.2 491.5 228.1 492.4z"/></g></g><g display="none"><path class="glasses" display="inline" fill-rule="evenodd" clip-rule="evenodd" d="M433.2 500.1H425.5c-0.7 0-1.2 0.5-1.2 1.2s0.5 1.2 1.2 1.2h7.7c0.7 0 1.2-0.5 1.2-1.2S433.9 500.1 433.2 500.1zM202.7 502.5H195c-0.7 0-1.2 0.5-1.2 1.2s0.5 1.2 1.2 1.2h7.7c0.7 0 1.2-0.5 1.2-1.2S203.4 502.5 202.7 502.5z"/></g><g display="none"/><path class="glasses"  fill-rule="evenodd" clip-rule="evenodd" fill="#333333" d="M250.4 9.6c-2.8-4.1-7.6-11.3-15-9.3 -1.1 0.3-3.1 1.7-4.1 2.9 -2.7 3.1-4.2 7.3-6.6 11.7 -0.6 1.1-1.6 2.4-1.9 3.1 -1.1 2.7-3.5 5.4-4.1 7.8 -0.9 3.4-0.1 8.6 2.6 10.7 0.2 0.2 0.1 0.1 0.4 0.3 0.4 0.1 0.5-0.1 0.6-0.3 3.3-4.3 4.9-10.3 6.9-16 2-5.7 4-11.9 8.4-15.2 6 4 9.2 10.9 11.9 17.9 2.7 7 4.7 14.9 4.3 24.1 -18.9-1.6-31.8-8.2-51.4-8.6 -14.6-0.3-27.8 2.7-38.1 7.6 -3 1.4-7.5 4.7-10.5 4.5 -2.4-0.2-4.1-2.6-6.2-3.1 -2.4-0.6-5.9-0.1-8.6 0.2 -2.7 0.3-5.4 0.7-8 0.8 -6 0.3-12.5-1.7-17.5-0.4 -2.3 0.6-4 3.1-6.2 3.3 -3.2 0.2-7.1-2.7-10.5-4.3 -10.1-4.7-22.1-7.5-36.6-6.8 -9.3 0.4-17.5 2-25.3 4.1 -7.6 2-15.2 4.9-23.9 4.7 0.1-4.7 0.8-8.9 2.1-12.8 2.6-7.7 4.9-13.8 10.3-19.7 0.9-1 1.9-2.1 3.5-3.6 1.3-1.3 3-3.3 4.4-3.4 1.8-0.1 4 4.5 5.1 6.6 2.7 5.1 5 9.5 7.8 15.6 1 2.1 2.6 7.2 5.8 5.8 0.7-0.3 0.7-1.6 1-3.1 1.5-6.3-0.8-9.9-3.5-13.4C43.5 16.2 39.8 8.4 34.6 4.7c-7.7-2-13.2 4.2-17.3 8.2C7.7 22.4 3.1 38.9 0 54.1c0 0.5 0 1.1 0 1.6 0.8 2.7 0.3 6.6 2.1 8.6 1.4 1.6 3.9 1.6 6 2.9 4.7 2.9 5.7 9.4 7.4 15.2 1 3.3 1.6 6.6 2.9 9.7 2.4 5.8 5.9 10.8 10.1 15 7.9 7.9 19.2 15.4 33.9 16.3 11.4 0.7 21.8-2.3 29.6-6.6 11.3-6.2 17.8-15.6 21.8-28.8 1.1-3.7 3.4-9.3 2.5-14.4 -0.4-2.4-4.1-4.8-3.7-7.4 0.3-2.4 4.6-3.6 7.4-4.1 3.9-0.7 7.9-0.8 10.9-0.8 3-0.1 6.7-0.5 10.5 0 3.1 0.4 7.2 1.9 7.4 4.3 0.1 1.3-1 2.1-1.4 2.9 -0.6 1-1.1 2-1.4 3.1 -1.3 3.9 0.3 9.4 1.2 12.8 3 10.1 8.3 18.9 14.2 24.5 8.5 8 23 13.9 38.3 12.8 26.8-1.9 42.7-18.7 48.3-41.8 1.4-5.7 2.1-11.3 6-14 2.1-1.4 5.9-1.7 7.6-3.5 2-2.1 1.7-7 2.3-10.3 0-0.1 0-0.3 0-0.4C262.1 35.5 257.9 20.6 250.4 9.6zM19.9 61.5h-7.7c-0.7 0-1.2-0.5-1.2-1.2s0.5-1.2 1.2-1.2h7.7c0.7 0 1.2 0.5 1.2 1.2S20.5 61.5 19.9 61.5zM106.8 82.4c-0.3 6.1-3.2 11.5-6 15.4 -1.7 2.5-3.8 5.1-6.4 7.2 -2.4 2-4.7 4.5-7.2 6.2 -6.6 4.5-16.1 6.6-25.1 6 -13.3-0.9-24.8-8.6-31.7-17.3 -0.4-0.5-0.9-0.9-1.2-1.4 -0.3-0.4-0.3-0.5-0.5-0.8 -0.1-0.2-0.2-0.4-0.4-0.6 -1.6-2.2-2.9-4.5-3.9-7 -3.2-7.8-4.9-20.2-0.4-28.2 2.3-4.1 7.8-8 12.5-10.1 2.6-1.1 5.6-2 8.6-2.7 4.1-1 7.9-1.4 12.8-1.6 10.8-0.5 23 0.5 30.9 4.3C99.2 56.8 107.7 66.4 106.8 82.4zM239.9 84.7c-4.9 13.9-14.9 24.3-29.2 28.8 -11 3.5-22 2.6-31.7-2.1 -4.4-2.1-7.6-5.1-11.3-8 -6.2-5-12-12.6-12.5-22.8 -0.7-13.2 5-21.9 13-27.4 8.3-5.7 18.9-7.7 32.9-8 18.9-0.5 37 5.3 40.7 21.8C243.1 73 241.7 79.3 239.9 84.7zM250.4 59.2h-7.7c-0.7 0-1.2-0.5-1.2-1.2s0.5-1.2 1.2-1.2h7.7c0.7 0 1.2 0.5 1.2 1.2S251 59.2 250.4 59.2z"/></svg>
+</a>
+</div>
+
+    <script type="text/javascript">
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-7488758-3', 'auto');
+        ga('send', 'pageview');
+
+          var contact = document.getElementById('contact-cta');
+
+          if (contact) {
+
+            contact.addEventListener('click', function() {
+                ga('send', 'event', 'Contact Link', 'Click');
+            })
+
+          }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+Title: Sleep
+----
+Date: 2015/02/15
+----
+Publish Date: January 2015
+----
+Subtitle:
+----
+Description: Tips for better sleep. Routine, no devices, no caffeine and more.
+----
+Excerpt: Sleep is one of those weird things which we do every day but never get any better at doing and, unfortunately, we don’t live in a sleep friendly society because we require people to be in work at 9am regardless of their natural sleep patterns.
+----
+Text:
+
+Sleep is one of those weird things which we do every day but never get any better at doing and, unfortunately, we don’t live in a [sleep friendly society](http://www.bbc.co.uk/news/health-27286872) because we require people to be in work at 9am regardless of their natural sleep patterns. It’s hard to miss the reasons from experts as to why sleep is important: your body regenerates, your mind can work things out and [store memories](http://www.bbc.co.uk/news/health-27695144). Also it’s the one activity through the day (unless you are very unlucky) that no one can stop you doing. It’s yours regardless of responsibilities or commitments.
+
+The two tips for better sleep, which I could say made a marked difference to me, is no caffeine & no devices but, of course, it will be different for different people so here’s a few more if you fancy getting a few extra winks.
+
+## Set a bedtime
+
+This is probably the hardest recommendation I’ve tried to follow. I’ve even tried setting an alarm to alert me as to when I should start getting ready for bed. But there’s just too much variance in an evening and it’s hard to start getting ready for bed when you’re not even tired.
+I really don’t think this is possible when you’re working and only have a small window of time to do all the interesting stuff you want to do in an evening.
+
+## Routine
+
+This is meant to signal to the mind that it should be preparing for sleep. An [ideal routine](http://www.nhs.uk/Livewell/insomnia/Pages/bedtimeritual.aspx) could be: floss, brush your teeth, meditate for 10 mins, do some stretching, read, sleep.
+
+A more likely routine is: brush your teeth, talk to your SO, read the iPad, try to sleep, stay awake.
+
+It’s not really worked for me. If you’re tired you may as well try to capitalise on it, scrap the routine and get to bed as quick as possible. Sometimes I find if I start following a routine when I’m tired the activity wakes me up.
+
+## No devices
+
+Have you ever been dozing, suddenly the room brightens up and you think “A message! I better just go check it”. I’ve even got out of bed to check my phone only to find out someone liked the cat video I just shared. So not worth it.
+
+Keep anything majorly bright out of the bedroom or away from the bed. Not only could it be effecting your [melatonin levels](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3047226/) but that stuff can wait until the morning.
+
+## No caffeine
+
+This means no Yorkshire tea after your tea (or dinner for Southerners). The experts recommend [no caffeine in the afternoon](http://www.nhs.uk/news/2013/11november/pages/even-afternoon-coffee-disrupts-sleep-study-finds.aspx) but I know a couple of people who can drink tea at 10pm and it not affect their sleep. I would recommend trying to cut it out in the evenings for a week or two to see if it makes a difference.
+
+## Keep it quiet
+
+Another obvious tip. Keep your bedroom quiet, cool & dark. The light messes with our mojo and noises disturb our slumber. For me, noise whilst dozing off can wake me back up again.
+
+## Journal
+
+It’s not only meant to [help with depression](http://well.blogs.nytimes.com/2015/01/19/writing-your-way-to-happiness/) but it’s good to get thoughts and feelings out of your head for a while. It’s not meant to be about how your day went but whatever is on your mind at the time. This is a little hard to find time to do & if you want to it do it on a device then it can be counter-intuitive but it can be good to brain dump into a text file before getting ready for bed.
+
+## Exercise
+
+Another tip often recommended by experts. I’ve had limited success with this. A really active day can definitely help, but I’m just not sure about general exercise. I’ve come back from a late swim feeling dog-tired, but then woken back up again once I started doing stuff.
+
+There we have it! A few tips to help you get to sleep. I’d be surprised if you hadn’t heard of these before. There are so many resources out there to help. If you’ve got any more tips let me know.
+
+<div class="divider">-</div>
+
+## 2016
+
+The quest for a good night’s sleep continues!
+
+Following on from the no devices rule, I’ve setup a makeshift charging station away from the bedroom for our devices. I don’t miss the notification light and temptation to check my phone! If I can’t sleep then it’s back to reading a book or Kindle instead of reading articles on the interweb.
+
+I also scoured the Black Friday sales and managed to get one of those [sunrise light alarms](http://www.philips.co.uk/c-p/HF3510_01/wake-up-light) on the cheap. It’s pretty great, not perfect but I wouldn’t want to swap it back for a normal lamp. The feature which gradually fades the light and quietens the radio when you want to sleep is brilliant. It’s okay for reading if you’re sat right next to it but rubbish for anyone else. It creates a nice atmosphere as you’re getting ready for bed though. Not too bright.
+
+### Articles of interest from the past year
+
+In the article [Apes reveal secrets to good sleep](http://www.bbc.com/earth/story/20150415-apes-reveal-sleep-secrets) Matt Walker takes a look at the research being conducted into Monkey and Ape sleep patterns:
+
+> “To date, every population of wild great ape studied builds platforms to sleep on. Gorillas, orangutans, chimps and bonobos create nesting platforms in the trees, whereas modern humans construct beds to lie on.”
+
+Akshat Rathi covers the conflicting data which arises from different sleep studies in [It’s probably a myth that we’re not getting enough sleep](http://qz.com/491414/its-actually-a-myth-that-were-not-getting-enough-sleep/):
+
+> “Knutson believes that answers to such a question [On average, how many hours of sleep do you get in a day?] are likely to suffer from both conscious and unconscious biases, which may make people give a different answer than reality.”
+
+Jermoe Siegel is trying to debunk the claim that we are getting less sleep than our ancestors by studying [sleeping patterns of tribes](http://www.theguardian.com/science/2015/oct/15/modern-life-is-rubbish-sleep-is-just-the-same-as-ever-say-scientists):
+
+> “A typical night’s rest amounted to six hours and 25 minutes, at the low end of sleep times recorded for people in Europe and the US. They slept an hour longer in the winter than in the summer.”
+
+In the New Yorker Maria Konnikova has a three part series on [falling asleep](http://www.newyorker.com/science/maria-konnikova/why-cant-we-fall-asleep), [why we sleep](http://www.newyorker.com/science/maria-konnikova/why-we-sleep) and [wakefulness](http://www.newyorker.com/science/maria-konnikova/the-walking-dead).
+
+> “The problem, on the whole, isn’t that we’re waking up earlier. Much of the change has to do with when we choose to go to bed—and with how we decide to do so.”
+
+----

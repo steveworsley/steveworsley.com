@@ -1,0 +1,47 @@
+Title: Five Whys
+----
+Date: 2014/09/01
+----
+Publish Date: September 2014
+----
+Subtitle: But Why?
+----
+Description: The Five Whys technique will guide you in finding the root cause behind a problem or your true motivation behind an action.
+----
+Excerpt: If you’ve ever had a hard decision to make, stumbling through a fuzzy cloud of choices & apprehension, then the Five Whys technique might help. It will guide you in finding the root cause behind a problem or your true motivation behind an action.
+----
+Text:
+
+If you’ve ever had a hard decision to make, stumbling through a fuzzy cloud of choices & apprehension, then the Five Whys technique might help. It will guide you in finding the root cause behind a problem or your true motivation behind an action.
+
+### Technique
+
+Simply ask **why**, repeat up to five times & give yourself time to think through the answers.
+
+For example: *“I fancy a bag of crisps.”*
+
+1. Why do you want a bag of crisps?
+
+    *“If I want food then I must be hungry.”*
+
+2. Why are you hungry?
+
+    *“Well I did just have lunch & my stomach doesn’t really feel hungry. So maybe I’m just bored & want to procrastinate.”*
+
+3. Why do you want to procrastinate?
+
+    *“Mainly because I don’t find this work engaging. It’s boring.”*
+
+4. Why do you find the work boring?
+
+   *“It’s not something I’m interested in. I’m not invested in it & it doesn’t make me happy. Maybe I should leave my job.”*
+
+So this example became serious pretty fast & it didn’t even need five repetitions to get to the real crux of the problem. You could then take the last answer & use the Five Whys technique again with “Why haven’t you left your job yet”
+
+Five is the ideal amount of times you’ll need to question yourself about a problem. Any more than that may result in an existential crisis.
+
+### Origins
+
+The Five Whys technique is also called ‘root cause analysis’ & was originally developed by Sakichi Toyada of Toyota. Or more likely one of his kids who just wanted to annoy him.
+
+----

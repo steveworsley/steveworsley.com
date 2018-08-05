@@ -1,0 +1,89 @@
+Title: Writing
+----
+Date: 2015/09/20
+----
+Publish Date: August 2015
+----
+Subtitle:
+----
+Description: Why I started writing and how you can too.
+----
+Excerpt: It’s been a year since I started gracing the web with the presence of my hastily written musings and, as long as I don’t lose my fingers to an angry camel whilst on a trip to the zoo - not that I go to zoos as they’re a bit harsh on the animals, could you imagine Mufasa in a zoo?
+----
+Text:
+
+It’s been a year since I started gracing the web with the presence of my hastily written musings and, as long as I don’t lose my fingers to an angry camel whilst on a trip to the zoo - not that I go to zoos as they’re a bit harsh on the animals, could you imagine Mufasa in a zoo?
+
+“Look, Simba. Everything the light touches is our kingdom… except that part over there marked ‘Petting’. You must never go there.”
+
+Still with me? Deep breath now - I plan to write a hell of a lot more. And I reckon you should too.
+
+The thing about writing is that it’s like speaking when you’re at your most eloquent and you’ve had time to *think*.
+
+It was reading Arnold Bennett’s [How to Live on 24 Hours a Day](http://www.amazon.co.uk/gp/product/1508462194/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1508462194&linkCode=as2&tag=stevworsdesia-21), which he wrote in 1920, that got me started. He recommended carving 90 minutes, 3 times a week out of your schedule to spend on doing something you feel important. I just started with 90 minutes a week and used it to sort through some of my thoughts and opinions on ‘things’. This naturally led me to think “these might be useful for other people” so instead of keeping them locked up in my notebooks I put them out in the wild.
+
+That, an opportunity to carve out a little chunk of the web for myself, combined with I’m sure, a light sprinkling of narcissism, nudged me into deciding to write something once a month for ten years. A set period of 10 years because it should give me enough time to see my opinions change and, from my past experiments, I found it was always good to have an end date.
+
+Now, somehow for the past year I’ve managed to keep at it and I put that down to a number of things:
+
+I’m writing for myself so I’m not too bothered whether anyone reads my articles or not, well I’m  bothered enough to actually put them on a website, but it just reduces demotivation if I don’t get many views. More importantly this means I’m going to write about things which interest me and will therefore keep me invested.
+
+I’ve discovered the best way to get things written is to ride the wave of enthusiasm an idea creates. Once the enthusiasm runs out it’s a bit silly to keep plugging away. This happened on my post about being 32 and it was a killer. It was like running into brick wall and the writing loses its flow. It’s easy to come up with ideas but when it gets down to the research it can soon become boring or too big a subject to tackle.
+
+I make time for writing. ‘Getting to know myself’ is probably one of the most important things I’m doing at the moment so I don’t mind making time for it. Hopefully good things will come.
+
+A rather lax monthly schedule has been just right. It’s surprising, or actually it’s not surprising, how quickly time goes so it doesn’t take long to build up some content.
+
+It’s also been interesting to get responses to the articles from friends and family. I’m still not sure about a comments system. They’re not a great format for discussion but then without comments the discussion gets lost on a Facebook or Twitter timeline. I might implement them one day but it’s not a priority.
+
+## So how can you get started writing?
+
+It’s super easy to get started but probably a little harder sticking with it, the whole process takes me around 4 - 8 hours. You basically need:
+
+* Somewhere to store ideas
+* Somewhere to plan them out
+* Somewhere to write them out
+* Someone to proofread them
+* Somewhere to publish them
+* Somewhere to share them
+
+I jot down ideas and subjects which might interest me in, you guessed it, a [notebook](http://steveworsley.com/on/notebooks). If I’m not near a notebook I’ll e-mail them to myself to jot them down later.
+
+![image](http://steveworsley.com/assets/images/on/writing/ideas.jpg)
+
+Then I plan them out, noting down important points I want to get across, what questions I want to research and answer, trying to form a basic structure with bullet points or titles. At this point I should have a good idea whether I want to write the damn thing.
+
+![image](http://steveworsley.com/assets/images/on/writing/notes.jpg)
+
+Next up it’s time to get it into a word processor to fill it out. I use Google Docs as it’s easy to share for proofreading and it’s available anywhere with an internet connection. Time for a shout-out to my lovely lass for proofreading! She’s saved many a person from the onslaught of my bad grammar.
+
+![image](http://steveworsley.com/assets/images/on/writing/writing.jpg)
+
+I recommend starting with [Medium](https://medium.com/) to get your words published. I reckon it’s the best blogging platform out there at the moment. You can get publishing straight away and it’s got a great ecosystem which will help in getting other people to read your words. I prefer to keep my writing in my own ecosystem and under my control so I use [Kirby](http://getkirby.com/) which is a content management system, which I host with [Gandi](https://www.gandi.net/).
+
+Once you’ve written your article and you’re happy with it, get it out there and share it with your friends!
+
+## Time for the science
+
+In the spirit of hypocrisy, after saying I’m not too concerned about statistics, here’s a section dedicated to... statistics! I’ve been lucky to get a few people looking and that includes you, so many thanks. The main thing I’ve learnt from these stats is that people really like Notebooks. Here’s ‘Notebook Mountain’ which has demoted the rest of my articles to mere blips on the Google Analytics life-line:
+
+![image](http://steveworsley.com/assets/images/on/writing/mountain.png)
+
+As for the rest of them, here’s the past year in popularity order:
+
+* [Notebooks](http://steveworsley.com/on/notebooks) (1,621)
+* [Basic Income](http://steveworsley.com/on/basic-income)
+* [Board Games](http://steveworsley.com/on/board-games)
+* [Choosing A Vocation](http://steveworsley.com/on/choosing-a-vocation)
+* [32](http://steveworsley.com/on/32)
+* [Sleep](http://steveworsley.com/on/sleep)
+* [Increasing Empathy](http://steveworsley.com/on/increasing-empathy)
+* [Five Whys](http://steveworsley.com/on/five-whys)
+* [Your Three Selves](http://steveworsley.com/on/your-three-selves)
+* [Walking](http://steveworsley.com/on/walking)
+* [Ghosts](http://steveworsley.com/on/ghosts)
+* [Christmas](http://steveworsley.com/on/christmas) (34)
+
+## Get going
+
+You! Yes you, should try writing. If you need a hand getting set up, let me know, I’d be happy to help. They say writing is good for the soul, just make sure you don’t spill chicken soup on your nice notebook.

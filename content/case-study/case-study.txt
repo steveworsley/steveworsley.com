@@ -1,0 +1,128 @@
+Title: Case Study
+
+----
+
+Text:
+
+I’ve picked the International Boxing Association (AIBA) websites [aiba.org](http://aiba.org), [worldseriesboxing.com](http://worldseriesboxing.com) (WSB) and [aibaproboxing.com](http://aibaproboxing.com) (APB) to case study as they proved to be a challenge and were built around the time I was trying new techniques, from which I’ve been able to improve upon in other projects. This case study will explain the reasoning behind my decisions and what I’ve learnt from them.
+
+I led the front-end build which included HTML, CSS, JavaScript, PHP and WordPress. The main challenges faced were time, budget, lack of content and resourcing. These were also the first large responsive sites that I was involved with.
+
+## Overview
+
+The International Boxing Association came to Skylab to initially build three websites:
+
+(image: aiba.jpg caption: aiba.org - Federation class: wide-image link: http://aiba.org)
+
+(image: wsb.jpg caption: worldseriesboxing.com - Competition class: wide-image link: http://worldseriesboxing.com)
+
+(image: apb.jpg caption: aibaproboxing.com - Competition class: wide-image link: http://aibaproboxing.com)
+
+All three sites would have an international audience and be viewed across many different screen sizes. WSB and APB were planned to be the first of many competition websites. AIBA had their own competition data such as results and fixtures which would need integrating (I was not involved with the data integration other than to set it up in the WordPress templates).
+
+## Process
+
+The project followed the waterfall model, so once the client had signed off the scope it was passed to design and these were used during the build phase. The agreement was to build WSB site first, followed by aiba.org, the data integration and then APB.
+
+We decided to use a WordPress multisite and to create two themes (federation and competition). The decision to use one theme for both (and future) competition sites was taken mainly due to budgetary constraints and we were led to believe that there would be very little difference between the competitions. In hindsight we should have created a child theme per competition which could have inherited the generic styles from a parent theme and kept the logic for each competition isolated.
+
+Although we followed the waterfall model the designer and I had a good habit of working closely together. We often found that we were more productive when sat with each other rather than passing feedback back and forth.
+
+Once each site was built it was browser tested depending on the latest browser stats, which I compiled into a document every quarter. They were tested across a range of devices and virtual environments. I used a personal copy of [Ghostlab](https://www.vanamco.com/ghostlab/) to make this more efficient.
+
+## Build
+
+The following are some of the challenges I came across during the build process.
+
+
+### Components
+
+The competition theme needed to be extensible as we would be adding new competitions further down the line. I decided that we should try to split the theme into components. This would allow us greater flexibility and reuse. I’d also read about [Atomic Design](http://patternlab.io/about.html) so I was keen to try something similar. I’d previously introduced the BEM syntax into the studio and it made sense to keep using this.
+
+For each component we had a separate PHP partial, SASS file and Object Literal in the JavaScript.
+
+This worked well whilst we were building the themes, however by breaking it down into small reusable components it actually become harder to maintain. Developers coming onto the project found it harder to navigate through the code.
+
+Unfortunately, once we had built the sites, it turned out that AIBA would be sticking with just the two competitions. Therefore I think splitting the theme into components to this extent was overkill for this particular project and would be more useful on a product where the components could be documented in a style guide.
+
+### Responsive
+
+The competition theme was developed first and this was tailored towards desktop. Breakpoints were added when the layout ‘broke’ as the website was scaled down for smaller screen sizes. This was great in theory but we ended up with too many minor breakpoints and again it made it harder to maintain.
+
+For the aiba.org site I decided to take a mobile first approach and discuss a comprise with the designer to limit the number of breakpoints to around 7. It meant striking a balance between making the site look perfect at all screen resolutions and maintainability.
+
+Making data tables responsive is quite tricky. After discussions with the designer we decided that for some of the static tables it would be okay to hide columns which contained secondary information at smaller screen sizes:
+
+(image: tables.jpg class: wide-image)
+
+Tables added through the CMS would use a wrapper and rely on horizontal scroll. I also tried the method of adding the column heading above each cell and stacking them vertically, but on large tables the user would end up having to scroll too far to get to the content below the table.
+
+Another challenge was the headings in the competition theme. Initially these were designed to be full width, sit on one line and stick to the bottom of the hero image.
+
+However, there was no way of dynamically scaling the text in proportion to the screen size (not to mention the usual custom font line-height quirks). I tried using [fittext.js](http://fittextjs.com/) but it wouldn’t have worked for the long post titles. In the end I had to add quite a few minor breakpoints specifically for the headings.
+
+(image: headings.jpg class: wide-image)
+
+### Performance
+
+To improve the performance of the sites I set up Gulp to concatenate and compress the JavaScript and compiled CSS. Gulp used [imageoptim](https://www.npmjs.com/package/gulp-imageoptim) to compress the image assets. I also implemented [WP Super Cache](https://en-gb.wordpress.org/plugins/wp-super-cache/). At the time of build we had not found a robust responsive image solution, however on future projects I started using the [picturefill](https://github.com/scottjehl/picturefill) polyfill by Scott Jehl and adding custom fields for the client to upload 4 different sizes of image. We didn’t have a set performance budget but I did work with the designer to reduce the number of fonts and assets loaded in.
+
+### Progressive Enhancement
+
+The themes use some progressive enhancement techniques such as custom select boxes with JavaScript, CSS arrows and animations depending on browser support. It pains me that, more importantly, we didn’t use progressive enhancement for the menu. If a user’s browser doesn’t use JavaScript, or if JavaScript fails to load, they are limited to the pages they can navigate to. We took the view not to support browsers not using JavaScript (unless the client specifically requested it) after reading the [GDS stats](https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/). We had already dropped support for IE8 and 9 as less than 2% of users were using those browsers, so with 1% of users not using JavaScript it was easier to justify.
+
+## Retrospect
+
+We went into the project, as always, with good intentions but had to make many compromises.
+
+If I was tasked with the project again I would:
+
+* Encourage the client to provide the content first. Hire a copywriter or content strategist who can work with the client to produce and organise the content.
+* Get a good understanding of the competition data. Although we were led to believe the competitions would be quite similar, the smaller details - such as when results should be displayed or the number of bouts per match - differed quite a bit. This made the logic inside the templates more complex and so it would have made sense to split them out into separate child themes.
+* Reduce the complexity of the components.
+* Use Bootstrap. I took pride in building clean, bespoke, ‘hand-crafted’ templates and wasn’t too keen on using frameworks. I’ve come to learn that the benefits of being able to standardise grids, major breakpoints and components across multiple projects significantly outweighs any reservations I had about bloat. It also improves maintainability and cohesion between design and development.
+* Encourage feedback from the client early and often.
+
+Quite frankly this was a troublesome project but the experience I took from it went into improving the projects which followed.
+
+## Additional Projects
+
+### Holts Auto
+
+A responsive WordPress multisite for Holts with a separate site for each brand - Prestone, Redex and Simoniz. This was based on Bootstrap and used Timber for templating. A responsive image polyfill was used for the carousel to allow the client to use a different image per major breakpoint.
+
+(image: holts.jpg class: wide-image link: https://www.holtsauto.com/)
+
+### Holts Paint Match Pro
+
+A responsive web app built on Ember to search car paints and stockists. I was involved with the front-end and some of the data integration.
+
+(image: paintmatchpro.jpg class: wide-image link: https://www.holtsauto.com/holts/paintmatchpro/)
+
+### Aquazone
+
+A responsive ‘digital magazine’ for young swimmers built on Symfony. This is probably the most challenging responsive interface I have built, as it involves sliding new content columns in from the left and right depending on the way the user navigates the page. This, coupled with having to drop or add columns depending on the size of the browser window and navigating history states, made it quite complex.
+
+(image: aquazone.jpg class: wide-image link: https://aquazone.swimming.org)
+
+### Swimming Learn to Swim and Careers
+
+A responsive theme for the Swimming.org WordPress multisite. The brief was to create a standardised theme to surface swimming content, could be used across multiple sites and could be customised. Breaking the theme into components worked well here as it allowed us to create new components for site specific functionality such as the job listing for Careers.
+
+(image: learn.jpg caption: Learn to Swim class: wide-image link: http://www.swimming.org/learntoswim/)
+
+(image: careers.jpg caption: Careers class: wide-image link: http://www.swimming.org/careers/)
+
+### Swimming Entry Page Prototype
+
+The brief for this project was to create a customisable WordPress theme for the Swimming.org WordPress multisite. The theme would be split into full-width sections which could be ordered through the CMS.
+
+This was a great project to work on as we were able to get feedback from the client early on. Once the client had given feedback on the wireframes the designer had created, I built a HTML prototype. I then worked with the designer to iron out any responsive issues and identify any constraints which might need adding. It also allowed us to add greater detail to the scope which was valuable for when the project went into build.
+
+(image: s-entry.jpg class: wide-image link: http://www.swimming.org)
+
+### British Mountain Climbing TV
+
+A responsive WordPress theme for surfacing BMC climbing videos.
+
+(image: bmc.jpg class: wide-image link: http://tv.thebmc.co.uk/)

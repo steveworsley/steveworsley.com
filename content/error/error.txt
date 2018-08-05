@@ -1,0 +1,11 @@
+Title: Error
+
+----
+
+Text: The page has not been found.
+
+----
+
+Description: 404 - No Go!
+
+----

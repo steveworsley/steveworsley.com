@@ -1,0 +1,25 @@
+Title: Steve Worsley
+
+----
+
+Text:
+
+Catch me on [Twitter](https://twitter.com/Steve_Worsley), [Facebook](https://www.facebook.com/steve.worsley.writes/) and [Goodreads](https://www.goodreads.com/user/show/16665831-steve). Work: Design & development. Play: Board games, beer and biking. You might like to checkout my list of [board game resources](http://steveworsley.com/board-game-resources), [recipes](http://steveworsley.com/recipes) and favourite [quotes](http://steveworsley.com/quotes) from books.
+
+This site is built on [Kirby](http://getkirby.com). Fonts include Droid Serif for body text and Roboto Condensed for headings.
+
+<div class="divider">-</div>
+<div class="read-more-controls">
+    <p class="heading">Keep up to date</p>
+    <p>
+        <a href="https://www.facebook.com/steve.worsley.writes/">Facebook</a>,  <a href="http://feeds.feedburner.com/SteveWorsleysArticleFeed">RSS</a> or Email:
+    </p>
+    <form
+    style="padding: 3px; text-align: center;" action="https://tinyletter.com/steveworsley"
+    method="post"
+    target="_blank">
+        <input type="text" style="width:140px" name="email" id="tlemail" />
+        <input type="hidden" value="1" name="embed" />
+        <input type="submit" value="Subscribe" />
+    </form>
+</div>

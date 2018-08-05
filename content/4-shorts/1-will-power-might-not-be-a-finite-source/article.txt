@@ -1,0 +1,29 @@
+Title: Willpower might not be a finite source
+
+----
+
+Date: 12 March 2016
+
+----
+
+Publish-date: 12 March 2016
+
+----
+
+Author: 
+
+----
+
+Description: The idea that we might have a finite source of willpower to tap into was put forward by Roy Baumeister and Dianne Tice. Imagine doing an impossible crossword whilst at the same time resisting a plate of biscuits on a table - you'll  give up the crossword sooner than if there weren't any biscuits because you've been using up your will power.
+
+----
+
+Excerpt: The idea that we might have a finite source of willpower to tap into was put forward by Roy Baumeister and Dianne Tice. Imagine doing an impossible crossword whilst at the same time resisting a plate of biscuits on a table - you'll  give up the crossword sooner than if there weren't any biscuits because you've been using up your will power.
+
+----
+
+Text: 
+
+The idea that we might have a finite source of willpower to tap into was put forward by Roy Baumeister and Dianne Tice. Imagine doing an impossible crossword whilst at the same time resisting a plate of biscuits on a table - you'll  give up the crossword sooner than if there weren't any biscuits because you've been using up your willpower. They call this [Ego Depletion](https://en.wikipedia.org/wiki/Ego_depletion). However, Slate reports on a [new study](http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.single.html) which throws doubt on the theory:
+
+>“Taken at face value, the new Registered Replication Report doesn’t invalidate everything we thought we knew about willpower. A person’s self-control can lapse, of course. We just don’t know exactly when or why. It might even be the case that Baumeister has it exactly right—that people hold a reservoir of mental strength that drains each time we use it. But the two-task method that he and Tice invented 20 years ago now appears to be in doubt. As a result, an entire literature has been rendered suspect.”

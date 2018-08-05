@@ -1,0 +1,130 @@
+Title: The Search for the Perfect To-do List
+
+----
+
+Date: 2016/03/24
+
+----
+
+Publish-date: March 2016
+
+----
+
+Author:
+
+----
+
+Description: Beware the to-do list rabbit hole. It starts off with one or two innocent reminders and ends up with you tumbling down a long hole of procrastination in search of the perfect system. After many years of trying different software I’m glad to say that I’m finally climbing back out of the hole wearing a rather dashing Cheshire Cat pelt.
+
+----
+
+Excerpt: Beware the to-do list rabbit hole. It starts off with one or two innocent reminders and ends up with you tumbling down a long hole of procrastination in search of the perfect system. After many years of trying different software I’m glad to say that I’m finally climbing back out of the hole wearing a rather dashing Cheshire Cat pelt.
+
+----
+
+Related: choosing-a-vocation, five-whys, writing
+
+----
+
+Text:
+
+Beware the to-do list rabbit hole. It starts off with one or two innocent reminders and ends up with you tumbling down a long hole of procrastination in search of the perfect system. After many years of trying different software I’m glad to say that I’m finally climbing back out of the hole wearing a rather dashing Cheshire Cat pelt.
+
+The great thing about to-do and check lists is that, not only can you pretend you’re working for [NASA](http://km.nasa.gov/my-best-mistake-david-oberhettingers-why-i-love-checklists/) (I recommend a spiral bound notebook and walking around as if under low gravity), but they also keep your [Procrastination Monkey](http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) occupied (they help you focus).
+
+(image: todo-2.jpg link: self)
+
+It was David Allen’s [Getting Things Done](https://gtdconnect.com/store/product.php?productid=17035&cat=3&page) (GTD) book which sent me tumbling and, from that point on, no to-do list would be complete without an inbox, projects, subtasks and checklists. Oh, and it needed to be cross platform so I could use it on OSX, Windows and Android. I had about as much chance of finding the perfect to-do list as I would have finding a needle in a haystack whilst the haystack was on fire. Toasty.
+
+Although I’m a fan of writing things down to help me remember (just take a look at my [notebooks](http://steveworsley.com/on/notebooks)), I prefer something of the digital variety to track my tasks. I tried [Remember The Milk](https://www.rememberthemilk.com/) and [Wunderlist](https://www.wunderlist.com/) (no subtasks at the time), [Things](https://culturedcode.com/things/) (perfect but not cross platform), [NirvarnaHQ](https://www.nirvanahq.com/) (I can’t even remember why I gave this up) and [Doit.im](http://doit.im/) (everything I needed but it didn’t feel nice to use). Eventually, 6 years after I read the book, [Todoist](https://todoist.com/) and [Google Keep](https://keep.google.com/) were built.
+
+Todoist was perfect - it embraced GTD, felt well built and was cross platform. I eagerly started using it for work. Around the same time we started using a [Kanban](http://kanbanblog.com/explained/) board to keep track of our tasks. My tasks were all on this board. Gradually I forgot to open my perfect GTD app in the morning. After all that time I had no need for it.
+
+On the other hand I was actively using Google Keep for my personal to-do list. I used one card as an Inbox and transferred 3 tasks across to a new card each day. It was quite satisfying keeping the completed cards around but transferring tasks was a pain, and at the time there was no iPad app.
+
+(image: todo-8.jpg link: self)
+
+I had reached peak rabbit hole. Just like I have with this analogy. Woe is me!
+
+(image: todo-7.jpg link: self)
+
+## Hello Trello
+
+We had used [Trello](https://trello.com/) at work in the spirit of throwing everything against a wall to see if anything would stick. Trello made a satisfying ‘splat’ in our initial enthusiasm but began a sad, smeary journey down the figurative wall and was eventually ignored because no one wanted to clean it up. I was a bit sceptical to say the least. However, Trello aced my Google Keep system: it was cross-platform, the tasks (represented as cards) had checklists, comments and labels, they could easily be moved from column to column or board to board. Trello ended up being a joy to use.
+
+At first I created a ‘Do’ board and set up 3 columns: Inbox, Today and Done.
+
+(image: todo-1.jpg link: self)
+
+I then went on to create a set of Feeder Boards which would keep track of projects and similar tasks. These would feed into the Do board. I also created a set of rules to fine tune the system.
+
+## Feeder boards
+
+As with any to-do list system, adding all the tasks into one Inbox means it can get too long to manage. Breaking the tasks into their own boards based around themes helped make the system more manageable and meant they could have their own rules. I’m thinking about creating one for spring cleaning… joy.
+
+### Want
+
+It only took 32 years for me to realise that I should probably expand my horizons past cheese and beer, sit down and have a think about what I really want from life. So that’s what I did. I wrote 2 lists which went on to fill the inbox of my Want Trello board:
+
+* Want (kids, more time with parents, more independence) - I felt these in my gut.
+* Maybe (marriage, travel, garden) - A nice-to-have but not a priority.
+
+After reading Paul Graham’s article [The Top of My Todo List](http://paulgraham.com/todo.html), I realised my Want board didn’t look corny enough so I decided to label some of the cards as Dreams (unfortunately Trello does not have rainbow labels or cloud shape cards).
+
+If I catch myself daydreaming about a particular item on the board I mark the card with a label. For instance, I sometimes catch myself thinking about sitting on a porch looking out at the starry night sky or running a pizza joint. By adding these to the board and labelling them I’m, at the very least, giving myself a chance to investigate them.
+
+(image: todo-3.jpg link: self)
+
+The Want board also has discover and review columns. I also try to write ideas on how to get ‘what I want’ sooner and what the value of the task is.
+
+(image: todo-6.jpg link: self)
+
+### Boost
+
+Brace yourself for something which sounds like it’s fallen off the back of a self-help wagon: in the spirit of the “lean in” and “celebrate my achievements” parts of my [Life Philosophy](http://steveworsley.com/on/a-life-philosophy) (I just shuddered a little bit), I wanted to encourage myself to try things which might make me feel uncomfortable to help boost my confidence.
+
+The Boost board would also double up as a place to keep track of my achievements, however small. Without this board I’m pretty sure I wouldn’t have donated blood for the first time, gone on a couple of long bike rides, handed in my notice at work or fixed a hole in my Chinos instead of buying a new pair. Does looking over these small achievements make me feel invincible in the face of anxiety? Hell no, but it’s worth a try.
+
+(image: todo-4.jpg link: self)
+
+### Job
+
+I created this board to investigate different careers. If anything takes my fancy, no matter how random, I add a new card to this board. I then spend an hour researching that career and will stick it either in a Maybe column (for further research down the line) or Nope. I write on each card why I do or do not want to do this particular career for future reference.
+
+A nice example of this board working is when I investigated being a paramedic. I’m happy to admit that intense pressure, broken bones, blood and taking care of drunk people are not my cup of tea. In the Nope column that card went, but not without giving me the idea to do a first aid course. I stuck that idea in my Boost board and got it done last year.
+
+(image: todo-5.jpg link: self)
+
+## Rules
+
+The more I’ve been using this system, the more I’ve realised it needs some fine tuning and these rules tend to help.
+
+### Limits
+
+It can be disheartening if it doesn’t look like you’re getting through many tasks. I set an arbitrary limit of 20 on the inbox. If I want to add a new task then I have to remove another.
+
+I also added a maximum of 2 tasks to the Doing column to be done that day (I can do more if I get the first 2 complete). I tried upping this limit to 4 but I wasn’t getting through the task after a full day of work and it would make me anxious and grouchy in the evenings.
+
+### Review
+
+I have a Review repeating task, which sits at the bottom of the Do inbox, and gradually moves up as I clear it. Once the Review task is at the top I review all the Feeder Boards and fill up the Do inbox with new tasks, then move the Review back to the bottom.
+
+### Repeating tasks
+
+I have a couple of a repeating tasks, like Re-organise, which always stay in the inbox and have their own label. When a repeater hits the top of the inbox, I’ll duplicate the new card in the Today column and move the repeater to the bottom.
+
+### Focus on the value
+
+I found that by having a reminder why I was doing a particular task would help jump start me into doing it. So I try to add the value of the task into the description. This is a great time for using the 5 Whys technique if I’m not sure.
+
+### Discover
+
+A couple of the Feeder Boards have a Discover column. This is for large tasks which need research. When a task moves into the Discover column, I create a new Discover task in the Do board. Once that Discover task is done, I will have a set of subtasks I can add to the original card. The original card moves from Discover column into the Doing column and I add the first subtask to the Do Inbox - if there is space during the review phase.
+
+### Month off
+
+A new idea I’m trying is to take a month off every fourth month in a year, and clear out my inbox. Once in a while it’s nice not to be beholden to the to-do list. I found that I would have the occasional month of low productivity in which I would just ignore my list and this made me feel guilty. So it made sense to give myself a break!
+
+## Do it
+
+I've slowly dragged myself out the procrastination hole and I'm pretty happy with my current to-do list system. It’s not perfect, the names of the boards are pretty terrible, but I’m happy to end my search with Trello and keep on tweaking. Well … that is until David Allen writes GTD 2: The Return of the Repeating Task.

@@ -1,0 +1,53 @@
+Title: Work
+
+----
+
+Text:
+
+I'm currently a front-end developer and former web designer who is looking to get back into a design or UX led role but I'm open to anything which will generally make the web a better place. I would like to work on products or long term projects which will allow me to improve on my ideas.
+
+My main expertise is in developing attractive, functional interfaces for websites which users will find a pleasure to use across a range of devices.
+
+I'm looking to improve my design skills further and would like an opportunity to:
+
+* Be involved with the full production process, from conception to delivery.
+* Validate ideas with wireframes and prototypes.
+* Help define clear and testable project goals.
+* Re-ignite a passion for good design and typography.
+* Generally make the web a better place.
+* Be an advocate for users.
+
+In my spare time I like to write and enjoy getting involved with the Manchester digital scene such as attending meetups, lectures and talks. This gives me a chance to meet new people and gain inspiration.
+
+Get in touch! Email me at <a id="contact-cta" href="mailto:steve@steveworsley.com">steve@steveworsley.com</a>.
+
+## Want more details?
+
+I currently do front-end development and UI development of websites and web apps which involves:
+
+* Creating semantic HTML, CSS.
+* The occasional use of Bootstrap
+* Use of preprocessors such as SASS & LESS
+* Dealing with the quirks of web fonts
+* Build and package tools such as Compass, Gulp, Composer and NPM
+* JavaScript and jQuery
+* Cross browser and device testing
+* Mobile and responsive design techniques.
+* WordPress
+* Photoshop, Illustrator and Invision
+* Performance testing
+* GIT
+
+I've led front-end development and pushed for better standards and best practices across the studio:
+
+* Researched and defined standards for frontend technologies
+* Pushed for use of CSS methodologies particularly BEM and SMACSS
+* Defined our browser support
+* Provided research and guidance on which devices to test
+
+
+----
+
+Description: Front-end developer based in Manchester.
+
+----
